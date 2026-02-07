@@ -1,0 +1,26 @@
+# === Rust / Cargo ===
+/target/
+**/*.rs.bk
+
+# === Cargo.lock ===
+# Para bibliotecas, normalmente ignora
+# Para binários/aplicações, você pode versionar
+Cargo.lock
+
+# === IDEs / Editors ===
+.vscode/
+.idea/
+*.iml
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs / Temp ===
+*.log
+*.tmp
+
+# === Coverage / Bench ===
+/coverage/
+/lcov.info
+
